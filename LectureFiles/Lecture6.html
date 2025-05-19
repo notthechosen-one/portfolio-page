@@ -1,0 +1,40 @@
+<html>
+    <body>
+        <form action="/action_page.php" method="post">
+            First name:<br>
+            <input type="text" name="firstname" maxlength="15" required="true"><br>
+            Last name:<br>
+            <input type="type" name="lastname" maxlength="25" required="true"><br>
+            <br>
+            <input type="radio" name="gender" value="Male"checked>
+            Male<br>
+            <input type="radio" name="gender" value="Female">
+            Female<br>
+            <input type="radio" name="gender" value="Other">
+            Other<br><br>
+            <input type="checkbox" name="vehicle1" value="Bike">I have a bike<br>
+            <input type="checkbox" name="vehicle2" value="Car">I have a car<br>
+            <br>
+            <input type="color" id="favcolor" name="favcolor" value="#000000"><br>
+            <br>
+            <input type="time" required="true"><br>
+            <br>
+            <br>
+            <input type="email" placeholder="someone@example.com"><br>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+        
+        <label for="music">Choose Your Music Genre:</label><br>
+        
+        <select name="music">
+          <option value="Choose A Genre" selected>None</option>
+          <option value="Jazz">Jazz</option>
+          <option value="Rock">Rock</option>
+          <option value="Japanese Rock">J-Rock</option>
+          <option value="Pop">Pop</option>
+          <option value="Japanese Pop">J-Pop</option>
+        </select>
+
+    </body>
+</html>

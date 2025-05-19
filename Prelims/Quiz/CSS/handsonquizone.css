@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+img {
+  width: 500px;
+  height: auto;
+  border-radius: 5px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+
+h3 {
+  font-size: 18px;
+  color: gray;
+  margin-top: 0;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-left: auto;
+}

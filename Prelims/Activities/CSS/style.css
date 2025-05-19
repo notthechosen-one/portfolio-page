@@ -1,0 +1,118 @@
+body {
+  padding: 25px;
+  background-color: #c66b3d;
+}
+
+.greet {
+  background-color: #e5e5dc;
+  border-style: dotted;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.about {
+  background-color: #e5e5dc;
+  padding: 20px;
+  width: 70%;
+  font-size: 25px;
+  margin-bottom: 5px;
+  text-align: left;
+  margin-left: 0;
+  border-radius: 20px;
+  border-style: dotted;
+}
+
+#info {
+  margin-top: 0px;
+}
+
+.myimg {
+    display: flex;
+    align-items: center;
+}
+
+.myimg img {
+  width: 150px;
+  height: 150px; 
+  margin-right: 15px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  border-style: solid;
+  object-fit: cover;
+}
+
+.Education {
+  border-collapse: collapse;
+  background-color: #e5e5dc;
+  padding: 25px;
+  margin-top: 20px;
+  width: 100%;
+  height: 200px;
+}
+
+.Education th, tr {
+  border: 2px solid black;
+  text-align: center;
+  padding: 15px;
+  font-size: 25px;
+  background-color: #c4a35a;
+}
+
+.Education td {
+  border: 2px solid black;
+  text-align: center;
+  padding: 10px;
+  background-color: #e5e5dc;
+  font-size: 25px;
+}
+
+.Hobbies {
+  border-collapse: collapse;
+  background-color: #e5e5dc;
+  padding: 25px;
+  margin-top: 20px;
+  width: 100%;
+  height: 200px;
+}
+
+.Hobbies th, tr {
+  border: 2px solid black;
+  text-align: center;
+  padding: 15px;
+  font-size: 25px;
+  background-color: #c4a35a;
+}
+
+.Hobbies td {
+  border: 2px solid black;
+  text-align: center;
+  padding: 10px;
+  background-color: #e5e5dc;
+  font-size: 25px;
+}
+
+.Skills {
+  border-collapse: collapse;
+  background-color: #e5e5dc;
+  padding: 25px;
+  margin-top: 20px;
+  width: 100%;
+  height: 200px;
+}
+
+.Skills th, tr {
+  border: 2px solid black;
+  text-align: center;
+  padding: 15px;
+  font-size: 25px;
+  background-color: #c4a35a;
+}
+
+.Skills td {
+  border: 2px solid black;
+  text-align: center;
+  padding: 10px;
+  background-color: #e5e5dc;
+  font-size: 25px;
+}
