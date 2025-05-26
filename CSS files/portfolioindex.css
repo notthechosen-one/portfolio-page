@@ -298,3 +298,60 @@ h1 {
     display: block;
     background-color: #4d4d4d;
 }
+
+.project-head {
+    color:#0b6285;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #0b6285;
+    border: 2px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-item {
+    flex: 1 1 200px;
+    max-width: 300px;
+    min-width: 300px;
+    margin: 15px;
+    padding: 20px;
+    background-color: #0b6285;
+    border-radius: 8px;
+    border: 2px solid black;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.project-item:hover {
+    background-color: #87CEEB;
+    box-shadow: 3px #4d4d4d;
+}
+
+.project-name {
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: white;
+}
+
+.project-name p {
+    margin: 0 0 20px 0;
+}
+
+.project-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin: 0 auto;
+    display: block;
+    background-color: #4d4d4d;
+}
