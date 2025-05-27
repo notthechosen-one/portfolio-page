@@ -1,37 +1,39 @@
+
 <!DOCTYPE html>
 <html>
 	<head>
 	    <meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-		<link rel="stylesheet" href="./CSS files/portfolioindex.css">
+		<link rel="stylesheet" href="CSS files/portfolioindex.css">
 		<title>My Portfolio</title>
 	</head>
 	<body>
 		<div class="header">
-			<h1>My Portfolio</h1>
+			<h1 id="myPortfolio">My Portfolio</h1>
 				<nav>
 					<ul>
-						<li><a href="#lecfiles">Lecture Files</a></li>
-						<li><a href="#prelimfiles">Prelims</a></li>
-						<li><a href="#midtermfiles">Midterms</a></li>
-						<li><a href="#finalsfiles">Finals</a></li>
-						<li><a href="https://thepanisahotel.netlify.app">Finals Project</a></li>
+						<li><a href="#lecFiles">Lecture Files</a></li>
+						<li><a href="#prelimFiles">Prelims</a></li>
+						<li><a href="#midtermFiles">Midterms</a></li>
+						<li><a href="#finalsFiles">Finals</a></li>
+						<li><a href="#projectFile">Finals Project</a></li>
 					</ul>
 				</nav>
 		</div>
 		<div class="name">
+			<img src="Finals/Profile.jpg">
 			<h1>Von Gelo L. Umali</h1>
 			<p>2nd YEAR BSIT student at the University of The East Manila Campus.</p>
 		</div>
-		<h1 class="lecture-head">Lectures</h1>
-		<div id="lecfiles" class="lecture-container">
+		<h1 id="lecFiles" class="lecture-head">Lectures</h1>
+		<div class="lecture-container">
 			<div class="lecture-item">
 				<div class="lecture-name">
 					<p>Lecture 1: Intro to Web<br> Design Components</p>
 				</div>
 				<a href="LectureFiles/Lecture1.pdf">
-					<img class="lecture-image" src="Images/Preview Lecture 1.png" alt="Lecture 1">
+					<img class="lecture-image" src="Images/Lect1.png" alt="Lecture 1">
 				</a>
 			</div>
 			<div class="lecture-item">
@@ -39,7 +41,7 @@
 					<p>Lecture 2: HTML Structures</p>
 				</div>
 				<a href="LectureFiles/Lecture2.html">
-					<img class="lecture-image" src="Images/Preview Lecture 2.png" alt="Lecture 2">
+					<img class="lecture-image" src="Images/Lect2.png" alt="Lecture 2">
 				</a>
 			</div>
 			<div class="lecture-item">
@@ -47,21 +49,22 @@
 					<p>Lecture 3: Tables</p>
 				</div>
 				<a href="LectureFiles/Lecture3.html">
-					<img class="lecture-image" src="Images/Preview Lecture 3.png" alt="Lecture 3">
+					<img class="lecture-image" src="Images/Lect3.png" alt="Lecture 3">
 				</a>
 			</div>
 			<div class="lecture-item">
 				<div class="lecture-name">
-					<p>Lecture 4: Link, List, and Images No Submission</p>
+					<p>Lecture 4: Link, List, and Images</p>
+					<p>No Submission</p>
 				</div>	
-					<img class="lecture-image" src="Images/not-allowed.png" alt="Lecture 4">
+					<img class="lecture-image" src="Images/No Submission.png" alt="Lecture 4">
 			</div>	
 			<div class="lecture-item">
 				<div class="lecture-name">
 					<p>Lecture 5: CSS</p>
 				</div>
 				<a href="LectureFiles/Lecture5.html">
-					<img class="lecture-image" src="Images/Preview Lecture 5.png" alt="Lecture 5">
+					<img class="lecture-image" src="Images/Lect5.png" alt="Lecture 5">
 				</a>
 			</div>
 			<div class="lecture-item">
@@ -69,27 +72,27 @@
 					<p>Lecture 6: Forms</p>
 				</div>
 				<a href="LectureFiles/Lecture6.html">
-					<img class="lecture-image" src="Images/Preview Lecture 6.png" alt="Lecture 6">
+					<img class="lecture-image" src="Images/Lect6.png" alt="Lecture 6">
 				</a>
 			</div>	
 			<div class="lecture-item">
 				<div class="lecture-name">
-					Lecture 7: Bootstrap
+					<p>Lecture 7: Bootstrap</p>
 				</div>
 				<a href="LectureFiles/Lecture7.html">
-					<img class="lecture-image" src="Images/Preview Lecture 7.png" alt="Lecture 7">
+					<img class="lecture-image" src="Images/Lect7.png" alt="Lecture 7">
 				</a>
 			</div>		
 		</div>
 
-		<h1 class="prelims-head">Preliminaries</h1>
-		<div id="prelimfiles" class="prelims-container">
+		<h1 id="prelimFiles" class="prelims-head">Preliminaries</h1>
+		<div class="prelims-container">
 			<div class="prelims-item">
 				<div class="prelims-name">
 					<p>Activity 2: Table - Image Gallery</p>
 				</div>
 				<a href="Prelims/Activities/Image Gallery Activity 2.html">
-					<img class="prelims-image" src="Images/Preview Activity 2.png" alt="Activity 2">
+					<img class="prelims-image" src="Images/Image Gallery Act.png" alt="Activity 2">
 				</a>
 			</div>
 			<div class="prelims-item">
@@ -97,7 +100,7 @@
 					<p>Activity 3: Tags - Developers Page</p>
 				</div>
 				<a href="Prelims/Activities/Activity 3 My Developers Page.html">
-					<img class="prelims-image" src="Images/Preview Activity 3.png" alt="Activity 3">
+					<img class="prelims-image" src="Images/Developers Page Act.png" alt="Activity 3">
 				</a>
 			</div>
 			<div class="prelims-item">
@@ -105,7 +108,7 @@
 					<p>Prelim Quiz: Favorite Place</p>
 				</div>
 				<a href="Prelims/Quiz/PrelimHandsOnQuiz1.html">
-					<img class="prelims-image" src="Images/Preview Hands-On Quiz.png" alt="Hands-On Quiz">
+					<img class="prelims-image" src="Images/Favorite Place Quiz.png" alt="Hands-On Quiz">
 				</a>
 			</div>
 			<div class="prelims-item">
@@ -113,72 +116,74 @@
 					<p>Prelim Exam: Furniture Sale</p>
 				</div>
 				<a href="https://cip1101prelimhandsonexam.netlify.app">
-					<img class="prelims-image" src="Images/Preview Hands-On Exam.png" alt="Hands-On Exam">
+					<img class="prelims-image" src="Images/Furniture Sale HandsOn Exam.png" alt="Hands-On Exam">
 				</a>
 			</div>
 		</div>
 
-		<h1 class="midterm-head">Midterms</h1>
-		<div id="midtermfiles" class="midterm-container">
+		<h1 id="midtermFiles" class="midterm-head">Midterms</h1>
+		<div class="midterm-container">
 			<div class="midterm-item">
 				<div class="midterm-name">
 					<p>Activity 2: Lists</p>
 					<p>No Submission</p>
 				</div>
-				<img class="midterm-image" src="Images/not-allowed.png" alt="Midterm Activity 2: Lists">
+				<img class="midterm-image" src="Images/No Submission.png" alt="Midterm Activity 2: Lists">
 			</div>
 			<div class="midterm-item">
 				<div class="midterm-name">
 					<p>Activity 3: Images and Image Mapping</p>
 					<p>No Submission</p>
 				</div>
-				<img class="midterm-image" src="Images/not-allowed.png" alt="Midterm Activity 3: Images and Image Mapping">
+				<img class="midterm-image" src="Images/No Submission.png" alt="Midterm Activity 3: Images and Image Mapping">
 			</div>
 			<div class="midterm-item">
 				<div class="midterm-name">
 					<p>Activity 4: Admission Form</p>
 					<p>No Submission</p>
 				</div>
-				<img class="midterm-image" src="Images/not-allowed.png" alt="Midterm Activity 4: Admission Form">
+				<img class="midterm-image" src="Images/No Submission.png" alt="Midterm Activity 4: Admission Form">
 			</div>
 			<div class="midterm-item">
 				<div class="midterm-name">
 					<p>Midterm Hands-On Exam</p>
 					<p>No Submission</p>
 				</div>
-				<img class="midterm-image" src="Images/not-allowed.png" alt="Midterm Hands-On Exam">
+				<img class="midterm-image" src="Images/No Submission.png" alt="Midterm Hands-On Exam">
 			</div>
 		</div>
-		<h1 class="finals-head">Finals</h1>
-		<div id="finalsfiles" class="finals-container">
+		<h1 id="finalsFiles" class="finals-head">Finals</h1>
+		<div class="finals-container">
 			<div class="finals-item">
 				<div class="finals-name">
 					<p>Activity 1: Admin Page</p>
 				</div>
 				<a href="Finals/Finals Activity 1 Developers Page V2.html">
-					<img class="finals-image" src="Images/Preview Finals Activity 1.png" alt="Finals Activity 1: Developers Page V2">
+					<img class="finals-image" src="Images/Admin Page.png" alt="Finals Activity 1: Developers Page V2">
 				</a>
 			</div>
 			<div class="finals-item">
 				<div class="finals-name">
 					<p>Activity 2: Bootstrap</p>
 				</div>
-				<img class="finals-image" src="Images/not-yet-available.png" alt="Finals Activity 2: Bootstrap">
+				<img class="finals-image" src="Images/Coming Soon.png" alt="Finals Activity 2: Bootstrap">
 			</div>
 			<div class="finals-item">
 				<div class="finals-name">
 					<p>Finals Exam Hands-On</p>
 				</div>
-				<img class="finals-image" src="Images/not-yet-available.png" alt="Finals Exam Hands-On">
+				<img class="finals-image" src="Images/Coming Soon.png" alt="Finals Exam Hands-On">
 			</div>
 		</div>
-		<h1 class="project-head">Project</h1>
-		<div id="projectFiles" class="project-container">
+		<h1 id="projectFile" class="project-head">Project</h1>
+		<div class="project-container">
 			<div class="project-item">
 				<div class="project-name">
 					<p>Final Project: Hotel Management System</p>
 				</div>
-				<img class="project-image" src="Images/not-yet-available.png" alt="Final Project: Hotel Management System">
+				<a href="https://thepanisahotel.netlify.app">
+					<img class="project-image" src="Images/Hotel Management System.png" alt="Final Project: Hotel Management System">
+				</a>
 			</div>
 		</div>
 	</body>
